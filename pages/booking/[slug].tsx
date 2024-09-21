@@ -1,14 +1,16 @@
 import Link from "next/link";
 import { GetServerSideProps, NextPage } from "next";
-import { useRouter } from "next/router";
 
 interface Props {
     slug: string;
 }
 
 const BookingPage: NextPage<Props> = ({slug}) => {
-    
-    
+    const links = ["https://calendly.com/enacwest/digital-strategy", "https://calendly.com/enacwest/digital-strategy-advanced"
+        , "https://calendly.com/enacwest/market-expansion", "https://calendly.com/enacwest/market-expansion-advanced",
+        "https://calendly.com/enacwest/life-coaching", "https://calendly.com/enacwest/life-coaching-advanced"
+    ]
+    console.log(links)
 
     return (
         <div>
