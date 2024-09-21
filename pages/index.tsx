@@ -2,8 +2,6 @@
 // import Image from "next/image";
 // import localFont from "next/font/local";
 
-import BookingForm from "@/components/BookingForm";
-import Calendly from "@/components/Calendly";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -120,69 +118,75 @@ import Calendly from "@/components/Calendly";
 
 
 
-import { useState } from 'react';
-// import BookingForm from './BookingForm';
-// import Calendly from './Calendly';
+// import { useState } from 'react';
+// // import BookingForm from './BookingForm';
+// // import Calendly from './Calendly';
+
+// export default function Home() {
+//   const [step, setStep] = useState(1); // Track the current step of the booking process
+//   const [formData, setFormData] = useState({
+//     email: '',
+//     firstName: '',
+//     lastName: '',
+//     phoneNumber: '',
+//     address: '',
+//     notes: ''
+//   });
+
+//   const handleNextStep = (data: any) => {
+//     setFormData(data);
+//     setStep(step + 1); // Proceed to the next step
+//   };
+
+//   const handlePrevStep = () => {
+//     setStep(step - 1); // Go back to the previous step
+//   };
+
+//   return (
+//     <div className="p-20">
+//       <h1 className="text-3xl p-10 py-5 bg-pink-300">Oluwayemisi Page</h1>
+//       <div className="flex">
+//       <img src="https://i.ibb.co/W0FVwZ1/2.png" className="h-[400px]" />
+
+//         {/* <img src="/img/2.png" className="h-[400px]" /> */}
+//         <div>
+//           <h2>Career Discovery Call</h2>
+//       <div className="flex">
+//         <h1>20 min |</h1>
+//         <h2>Free</h2>
+//         {step === 1 && (
+//         <button className="text-blue-600" onClick={() => setStep(2)}>
+//           Book Now
+//         </button>
+//       )}
+//       </div>
+//         </div>
+      
+//       </div>
+      
+      
+
+//       {step === 2 && (
+//         <>
+//           <BookingForm onNextStep={handleNextStep} formData={formData} />
+//           <button onClick={handlePrevStep}>Back</button>
+//         </>
+//       )}
+
+//       {step === 3 && (
+//         <>
+//           <Calendly />
+//           <button onClick={handlePrevStep}>Back</button>
+//         </>
+//       )}
+
+//       {step === 4 && <h1>Booking Successful!</h1>}
+//     </div>
+//   );
+// }
 
 export default function Home() {
-  const [step, setStep] = useState(1); // Track the current step of the booking process
-  const [formData, setFormData] = useState({
-    email: '',
-    firstName: '',
-    lastName: '',
-    phoneNumber: '',
-    address: '',
-    notes: ''
-  });
-
-  const handleNextStep = (data: any) => {
-    setFormData(data);
-    setStep(step + 1); // Proceed to the next step
-  };
-
-  const handlePrevStep = () => {
-    setStep(step - 1); // Go back to the previous step
-  };
-
   return (
-    <div className="p-20">
-      <h1 className="text-3xl p-10 py-5 bg-pink-300">Oluwayemisi Page</h1>
-      <div className="flex">
-      <img src="https://i.ibb.co/W0FVwZ1/2.png" className="h-[400px]" />
-
-        {/* <img src="/img/2.png" className="h-[400px]" /> */}
-        <div>
-          <h2>Career Discovery Call</h2>
-      <div className="flex">
-        <h1>20 min |</h1>
-        <h2>Free</h2>
-        {step === 1 && (
-        <button className="text-blue-600" onClick={() => setStep(2)}>
-          Book Now
-        </button>
-      )}
-      </div>
-        </div>
-      
-      </div>
-      
-      
-
-      {step === 2 && (
-        <>
-          <BookingForm onNextStep={handleNextStep} formData={formData} />
-          <button onClick={handlePrevStep}>Back</button>
-        </>
-      )}
-
-      {step === 3 && (
-        <>
-          <Calendly />
-          <button onClick={handlePrevStep}>Back</button>
-        </>
-      )}
-
-      {step === 4 && <h1>Booking Successful!</h1>}
-    </div>
-  );
+    <div>yea</div>
+  )
 }
