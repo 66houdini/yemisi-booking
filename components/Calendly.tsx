@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function Calendly() {
+export default function Calendly({urlLink}: {urlLink: string}) {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://assets.calendly.com/assets/external/widget.js";
@@ -15,8 +15,8 @@ export default function Calendly() {
 
   return (
     <div
-      className="calendly-inline-widget min-w-80 h-[700px]"
-      data-url="https://calendly.com/enacwest/30min"
+      className="calendly-inline-widget min-w-80 h-[700px] absolute "
+      data-url={urlLink}
       style={{ minWidth: "320px", height: "700px" }}
     ></div>
   );

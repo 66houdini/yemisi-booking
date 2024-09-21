@@ -148,7 +148,9 @@ export default function Home() {
     <div className="p-20">
       <h1 className="text-3xl p-10 py-5 bg-pink-300">Oluwayemisi Page</h1>
       <div className="flex">
-        <img src="/img/2.png" className="h-[400px]" />
+      <img src="https://i.ibb.co/W0FVwZ1/2.png" className="h-[400px]" />
+
+        {/* <img src="/img/2.png" className="h-[400px]" /> */}
         <div>
           <h2>Career Discovery Call</h2>
       <div className="flex">
