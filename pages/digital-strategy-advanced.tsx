@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Calendly from "@/components/Calendly";
 
 export default function Strategy() {
