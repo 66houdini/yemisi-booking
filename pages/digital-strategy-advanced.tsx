@@ -38,7 +38,7 @@ export default function Strategy() {
               onClick={handleCloseCalendly} // Allow closing by clicking the overlay
             ></div>
             {/* Calendly Component */}
-            <Calendly urlLink="https://calendly.com/enacwest/digital-strategy-advanced" />
+            <Calendly urlLink="https://calendly.com/oluwayemisiadebayo/digital-strategy-advanced" />
           </>
         )}
           <div className="text-white grid grid-cols-2 space-x-3 md:space-x-10 shadow-2xl">
