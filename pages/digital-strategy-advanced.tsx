@@ -25,7 +25,7 @@ export default function Strategy() {
             <h1>Oluwayemisi Adebayo</h1>
             <h2 className="text-sm italic">
               back to main website:{" "}
-              <Link className="underline font-semibold" href={"https://yemisi.vercel.app"}>
+              <Link className="underline font-semibold" href={"https://www.oluwayemisiadebayo.com/"}>
                 Yemisi
               </Link>
             </h2>
