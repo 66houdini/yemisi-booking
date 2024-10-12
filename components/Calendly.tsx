@@ -39,7 +39,7 @@ export default function Calendly({ urlLink }: { urlLink: string }) {
 
   return (
     <div
-      className="calendly-inline-widget min-w-80 h-[700px] fixed top-0 left-0 w-full h-full z-50 bg-white"
+      className="calendly-inline-widget md:min-w-80 md:h-[700px] fixed top-0 left-0 w-full h-full z-50 bg-white"
       data-url={urlLink}
       style={{
         minWidth: "320px",

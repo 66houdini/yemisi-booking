@@ -18,8 +18,8 @@ export default function Coaching() {
         style={{ backgroundImage: "url('https://res.cloudinary.com/dador6eng/image/upload/v1727245909/yemisi/3_fo0gyy.jpg')" }}
       >
         
-        <div className="p-10 md:p-20 self-center">
-          <div className="p-5 mb-2 text-xl bg-white text-black flex justify-between">
+        <div className="p-5 md:p-20 self-center">
+          <div className="p-5 mb-2 text-sm md:text-xl bg-white text-black flex justify-between">
             <h1>Oluwayemisi Adebayo</h1>
             <h2 className="text-sm italic">
               back to main website:{" "}
@@ -39,7 +39,7 @@ export default function Coaching() {
             <Calendly urlLink="https://calendly.com/oluwayemisiadebayo/life-coaching-starter" />
           </>
         )}
-          <div className="text-white grid grid-cols-2 space-x-3 md:space-x-10 shadow-2xl">
+          <div className="text-white grid md:grid-cols-2 space-x-3 md:space-x-10 shadow-2xl">
             <div>
               <img
                 src="https://res.cloudinary.com/dador6eng/image/upload/v1727245918/yemisi/2_yf9z5n.jpg"
