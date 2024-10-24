@@ -13,32 +13,37 @@ export default function Coaching() {
 
   return (
     <>
-    <div
+      <div
         className="grid w-full bg-cover relative"
-        style={{ backgroundImage: "url('https://res.cloudinary.com/dador6eng/image/upload/v1727245909/yemisi/3_fo0gyy.jpg')" }}
+        style={{
+          backgroundImage:
+            "url('https://res.cloudinary.com/dador6eng/image/upload/v1727245909/yemisi/3_fo0gyy.jpg')",
+        }}
       >
-        
         <div className="p-5 md:p-20 self-center">
           <div className="p-5 mb-2 text-sm md:text-xl bg-white text-black flex justify-between">
             <h1>Oluwayemisi Adebayo</h1>
             <h2 className="text-sm italic">
               back to main website:{" "}
-              <Link className="underline font-semibold" href={"https://www.oluwayemisiadebayo.com/"}>
+              <Link
+                className="underline font-semibold"
+                href={"https://www.oluwayemisiadebayo.com/"}
+              >
                 Yemisi
               </Link>
             </h2>
           </div>
           {showCalendly && (
-          <>
-            {/* Overlay background */}
-            <div
-              className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40"
-              onClick={handleCloseCalendly} // Allow closing by clicking the overlay
-            ></div>
-            {/* Calendly Component */}
-            <Calendly urlLink="https://calendly.com/oluwayemisiadebayo/group-session" />
-          </>
-        )}
+            <>
+              {/* Overlay background */}
+              <div
+                className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40"
+                onClick={handleCloseCalendly} // Allow closing by clicking the overlay
+              ></div>
+              {/* Calendly Component */}
+              <Calendly urlLink="https://calendly.com/oluwayemisiadebayo/group-session" />
+            </>
+          )}
           <div className="text-white grid md:grid-cols-2 space-x-3 md:space-x-10 shadow-2xl">
             <div>
               <img
@@ -47,26 +52,33 @@ export default function Coaching() {
               />
             </div>
             <div className="bg-white text-black p-3 rounded h-fit md:space-y-2">
-              <h1 className="text-lg md:text-2xl font-bold">LIFE COACHING PACKAGES</h1>
+              <h1 className="text-lg md:text-2xl font-bold">
+                LIFE COACHING PACKAGES
+              </h1>
               <h2 className="md:text-xl">GROUP SESSION</h2>
               <h1 className="text-sm md:text-base">
-                In today’s competitive digital marketplace, a well-defined digital marketing
-                strategy is essential for achieving your business goals and delivering measurable
-                results.
+                This Group Session is designed to inspire and empower
+                participants to unlock their full potential. Through engaging
+                discussions, collaborative activities, and goal-setting
+                exercises, you&apos;ll learn practical strategies to overcome
+                challenges, stay focused, and maintain a positive mindset. This
+                session fosters a supportive environment where individuals can
+                share experiences and motivate each other to achieve personal
+                and professional success. (Partners)
               </h1>
               <h1>Cost: $50</h1>
-              <button onClick={handleBookNow} className="bg-blue-500 text-white p-2 rounded">
+              <button
+                onClick={handleBookNow}
+                className="bg-blue-500 text-white p-2 rounded"
+              >
                 Book Now
               </button>
             </div>
           </div>
         </div>
-       
       </div>
-      
 
       {/* Render the Calendly component when "Book Now" is clicked */}
-      
     </>
   );
 }
