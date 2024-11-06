@@ -64,8 +64,10 @@ export default function Coaching() {
                 challenges, stay focused, and maintain a positive mindset. This
                 session fosters a supportive environment where individuals can
                 share experiences and motivate each other to achieve personal
-                and professional success. (Partners)
+                and professional success.
               </h1>
+              <h2 className=" font-bold text-xl">Service; Partnered</h2>
+
               <h1>Cost: $50</h1>
               <button
                 onClick={handleBookNow}

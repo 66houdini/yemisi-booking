@@ -61,8 +61,9 @@ export default function Coaching() {
                 proper nutrition, regular physical activity, and healthy habits.
                 Learn how to make informed choices that enhance your energy
                 levels, improve your overall well-being, and create sustainable
-                routines for long-term health. (Partners)
+                routines for long-term health. 
               </h1>
+              <h2 className=" font-bold text-xl">Service; Partnered</h2>
               <h1>Cost: $100</h1>
               <button
                 onClick={handleBookNow}

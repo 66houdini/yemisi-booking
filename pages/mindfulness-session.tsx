@@ -62,8 +62,9 @@ export default function Coaching() {
                 overall well-being. Together, we explore mindfulness techniques
                 like meditation, deep breathing, and mindful awareness to
                 promote mental clarity and emotional balance, tailored to your
-                unique needs. ( Partners)
+                unique needs.
               </h1>
+              <h2 className=" font-bold text-xl">Service; Partnered</h2>
               <h1>Cost: $50</h1>
               <button
                 onClick={handleBookNow}

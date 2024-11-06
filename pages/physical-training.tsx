@@ -61,8 +61,10 @@ export default function Coaching() {
                 customized workouts and exercises tailored to your individual
                 needs. Whether your goal is strength, endurance, or flexibility,
                 you&apos;ll learn effective techniques to enhance your physical
-                performance and maintain a healthy body. (Partners)
+                performance and maintain a healthy body.
               </h1>
+              <h2 className=" font-bold text-xl">Service; Partnered</h2>
+
               <h1>Cost: $100</h1>
               <button
                 onClick={handleBookNow}

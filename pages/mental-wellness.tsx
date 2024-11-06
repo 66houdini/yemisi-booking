@@ -61,8 +61,9 @@ export default function Coaching() {
                 managing stress, improving emotional resilience, and fostering a
                 positive mindset. This session provides tools to help you
                 maintain balance, practice self-care, and nurture your emotional
-                well-being. (Partners)
+                well-being.
               </h1>
+              <h2 className=" font-bold text-xl">Service; Partnered</h2>
               <h1>Cost: $100</h1>
               <button
                 onClick={handleBookNow}

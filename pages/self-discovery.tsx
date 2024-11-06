@@ -62,8 +62,9 @@ export default function Coaching() {
                 Through thought-provoking exercises and reflective prompts,
                 you&apos;ll gain deeper insights into your true self, set meaningful
                 goals, and develop a clear path for personal growth and
-                fulfillment.(Partners)
+                fulfillment
               </h1>
+              <h2 className=" font-bold text-xl">Service; Partnered</h2>
               <h1>Cost: $80</h1>
               <button
                 onClick={handleBookNow}
