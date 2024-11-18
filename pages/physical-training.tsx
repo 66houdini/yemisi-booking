@@ -65,7 +65,7 @@ export default function Coaching() {
               </h1>
               <h2 className=" font-bold text-xl">Service; Partnered</h2>
 
-              <h1>Cost: $100</h1>
+              <h1>Cost: $1100</h1>
               <button
                 onClick={handleBookNow}
                 className="bg-blue-500 text-white p-2 rounded"
