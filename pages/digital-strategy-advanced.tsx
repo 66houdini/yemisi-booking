@@ -75,7 +75,7 @@ export default function Strategy() {
                 outcomes for your marketing efforts.
               </h1>
               
-              <h1>Cost: $400</h1>
+              <h1>Cost: $700</h1>
               <button
                 onClick={handleBookNow}
                 className="bg-blue-500 text-white p-2 rounded"

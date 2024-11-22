@@ -68,7 +68,7 @@ export default function Coaching() {
                 actionable goals that align with your personal vision for
                 success.
               </h1>
-              <h1>Cost: $100</h1>
+              <h1>Cost: $1000</h1>
               <button
                 onClick={handleBookNow}
                 className="bg-blue-500 text-white p-2 rounded"

@@ -69,7 +69,7 @@ export default function Market() {
               goals and resources, ensuring a strategic and successful
               expansion.
             </h1>
-            <h1>Cost: $100</h1>
+            <h1>Cost: $500</h1>
             <button
               onClick={handleBookNow}
               className="bg-blue-500 text-white p-2 rounded"

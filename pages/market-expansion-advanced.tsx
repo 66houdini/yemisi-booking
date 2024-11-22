@@ -57,7 +57,7 @@ export default function Market() {
               <h1 className="text-lg md:text-2xl font-bold">
                 BUSINESS CONSULTATION PACKAGES
               </h1>
-              <h2 className="md:text-xl">MARKET EXPANSION DVANCED</h2>
+              <h2 className="md:text-xl">MARKET EXPANSION ADVANCED</h2>
               <h1 className="text-sm md:text-base">
                 In today’s competitive business landscape, a well-defined market
                 expansion strategy is crucial for reaching new customers and
@@ -71,7 +71,7 @@ export default function Market() {
                 business goals and resources, ensuring a strategic and
                 successful expansion.
               </h1>
-              <h1>Cost: $400</h1>
+              <h1>Cost: $900</h1>
               <button
                 onClick={handleBookNow}
                 className="bg-blue-500 text-white p-2 rounded"
